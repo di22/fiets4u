@@ -143,7 +143,7 @@ const Home = () => {
                                 At Fietsmaker 4 You, you're never just a customer — you're a guest. Owner Wasim runs the shop with genuine warmth and hospitality. Whether you're waiting for a quick repair or just stopping by to browse, the atmosphere is always relaxed and welcoming.
                             </p>
                             <p style={{ color: 'white', fontWeight: 500, fontSize: '1.05rem', lineHeight: 1.8 }}>
-                                Don't be shy — <span style={{ color: 'var(--color-primary)' }}>ask for your free drink</span> when you come in. It's on Wasim. 😊
+                                Don't be shy — <span style={{ color: 'var(--color-primary)' }}> If he's busy working alone, feel free to treat yourself to a drink</span>  while you wait. It's on Wasim. 😊
                             </p>
                         </div>
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>

@@ -17,21 +17,21 @@ const Services = () => {
             note: 'Bring your bike in for any repair and the basics below are on us — no hidden costs.',
             features: alwaysFree.map(f => ({ label: f, free: true })),
         },
-        {
-            title: 'Full Bike Service',
-            subtitle: 'Complete planned maintenance',
-            price: '€60',
-            highlight: true,
-            note: 'Ideal for a full annual overhaul — everything checked, cleaned and tuned.',
-            features: [
-                { label: 'Deep clean', free: false },
-                { label: 'Bearings greased', free: false },
-                { label: 'Wheel truing', free: false },
-                { label: 'New cables (if needed)', free: false },
-                { label: 'Full safety report', free: false },
-                { label: 'All basic checks included', free: true },
-            ],
-        },
+        // {
+        //     title: 'Full Bike Service',
+        //     subtitle: 'Complete planned maintenance',
+        //     price: '€60',
+        //     highlight: true,
+        //     note: 'Ideal for a full annual overhaul — everything checked, cleaned and tuned.',
+        //     features: [
+        //         { label: 'Deep clean', free: false },
+        //         { label: 'Bearings greased', free: false },
+        //         { label: 'Wheel truing', free: false },
+        //         { label: 'New cables (if needed)', free: false },
+        //         { label: 'Full safety report', free: false },
+        //         { label: 'All basic checks included', free: true },
+        //     ],
+        // },
         {
             title: 'E-Bike Services',
             subtitle: 'Mechanical repairs available now',
@@ -60,8 +60,8 @@ const Services = () => {
         {
             category: 'Chain & Drivetrain', items: [
                 { name: 'Ketting aanspannen / opleggen (Chain tighten/fit)', price: '€15.00' },
-                { name: 'Ketting vervangen — normal', price: '€25.00' },
-                { name: 'Ketting vervangen — anti-roest', price: '€35.00' },
+                { name: 'Ketting vervangen — normal (1 speed)', price: '€25.00' },
+                { name: 'Ketting vervangen — anti-roest (1 speed)', price: '€35.00' },
                 { name: 'Trapas vervangen (Bottom bracket replacement)', price: '€65.00' },
             ]
         },
@@ -70,7 +70,7 @@ const Services = () => {
                 { name: 'Koplamp vervangen (Front light replacement)', price: '€15.00' },
                 { name: 'Achterlamp vervangen (Rear light replacement)', price: '€10.00' },
                 { name: 'Standaard vervangen — eenpoot (Single kickstand)', price: '€20.00' },
-                { name: 'Standaard vervangen — tweepoot (Double kickstand)', price: '€45.00' },
+                { name: 'Standaard vervangen — tweepoot (Double kickstand)', price: '€50.00' },
             ]
         },
         {
