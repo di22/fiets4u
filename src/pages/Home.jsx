@@ -63,7 +63,7 @@ const Home = () => {
                             </p>
                             <div style={{ display: 'flex', gap: '2rem' }}>
                                 <div>
-                                    <h3 style={{ fontSize: '2rem', color: 'var(--color-primary)' }}>4+</h3>
+                                    <h3 style={{ fontSize: '2rem', color: 'var(--color-primary)' }}>5+</h3>
                                     <p style={{ fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Years in Business</p>
                                 </div>
                                 <div>
