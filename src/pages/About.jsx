@@ -28,14 +28,14 @@ const About = () => {
 
                     {/* Main story grid */}
                     <div style={{
-                        display: 'grid',
-                        gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+                        display: 'flex',
+                        flexWrap: 'wrap-reverse',
                         gap: '5rem',
                         alignItems: 'start',
                         marginBottom: '6rem',
                     }}>
                         {/* Owner photo */}
-                        <div style={{ position: 'relative' }}>
+                        <div style={{ flex: '1 1 300px', minWidth: 0, position: 'relative' }}>
                             <div style={{
                                 position: 'absolute',
                                 top: '-16px', left: '-16px',
@@ -69,7 +69,7 @@ const About = () => {
                         </div>
 
                         {/* Story text */}
-                        <div style={{ paddingTop: '1rem' }}>
+                        <div style={{ flex: '1 1 300px', minWidth: 0, paddingTop: '1rem' }}>
                             <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem' }}>
                                 A Passion Turned <span className="text-gradient">Purpose</span>
                             </h2>
@@ -118,8 +118,8 @@ const About = () => {
 
                     {/* Custom bikes section */}
                     <div style={{
-                        display: 'grid',
-                        gridTemplateColumns: 'repeat(auto-fit, minmax(min(280px, 100%), 1fr))',
+                        display: 'flex',
+                        flexWrap: 'wrap',
                         gap: '3rem',
                         alignItems: 'center',
                         padding: 'clamp(2rem, 5vw, 4rem)',
@@ -128,7 +128,7 @@ const About = () => {
                         border: '1px solid rgba(255,255,255,0.06)',
                         marginBottom: '4rem',
                     }}>
-                        <div>
+                        <div style={{ flex: '1 1 280px', minWidth: 0 }}>
                             <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>
                                 Custom <span className="text-gradient">Builds</span>
                             </h2>
@@ -136,8 +136,8 @@ const About = () => {
                                 One of Wasim's greatest joys is building bikes from the ground up. From track bikes to city cruisers, every custom build is a unique collaboration between Wasim and the client — crafted with care, precision and personality.
                             </p>
                         </div>
-                        <div style={{ position: 'relative' }}>
-                            <div style={{ position: 'absolute', top: '-12px', right: '-12px', width: '100%', height: '100%', border: '2px solid var(--color-secondary)', zIndex: 0, borderRadius: '4px' }} />
+                        <div style={{ flex: '1 1 280px', minWidth: 0, position: 'relative' }}>
+                            <div style={{ position: 'absolute', top: '12px', left: '12px', width: '100%', height: '100%', border: '2px solid var(--color-secondary)', zIndex: 0, borderRadius: '4px' }} />
                             <img
                                 src={shopBike}
                                 alt="Custom bike at Fietsmaker 4 You"
