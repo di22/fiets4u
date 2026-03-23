@@ -7,7 +7,7 @@ const About = () => {
     const facts = [
         { label: 'In Amsterdam since', value: '2009' },
         { label: 'Languages spoken', value: '3' },
-        { label: 'Years in business', value: '4+' },
+        { label: 'Years in business', value: '5+' },
         { label: 'Passion', value: 'Bikes ❤️' },
     ];
 
@@ -119,10 +119,10 @@ const About = () => {
                     {/* Custom bikes section */}
                     <div style={{
                         display: 'grid',
-                        gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+                        gridTemplateColumns: 'repeat(auto-fit, minmax(min(280px, 100%), 1fr))',
                         gap: '3rem',
                         alignItems: 'center',
-                        padding: '4rem',
+                        padding: 'clamp(2rem, 5vw, 4rem)',
                         background: 'rgba(255,255,255,0.02)',
                         borderRadius: '16px',
                         border: '1px solid rgba(255,255,255,0.06)',
@@ -151,7 +151,7 @@ const About = () => {
                         background: 'linear-gradient(135deg, rgba(0,200,255,0.08) 0%, rgba(120,80,255,0.06) 100%)',
                         border: '1px solid rgba(0,200,255,0.2)',
                         borderRadius: '16px',
-                        padding: '3rem',
+                        padding: 'clamp(2rem, 5vw, 3rem)',
                         textAlign: 'center',
                     }}>
                         <div style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>☕</div>
