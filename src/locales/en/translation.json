@@ -1,0 +1,304 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "contact": {
+    "page_title_1": "Get in",
+    "page_title_highlight": "Touch",
+    "visit_us": "Visit Us",
+    "address": {
+      "name": "Fietsmaker 4 You",
+      "street": "Hagedoornweg 70a",
+      "city": "1031 BT Amsterdam",
+      "country": "The Netherlands"
+    },
+    "opening_hours": "Opening Hours",
+    "hours": {
+      "week": "Mon - Fri: 09:00 - 18:00",
+      "sat": "Saturday: 10:00 - 17:00",
+      "sun": "Sunday: Closed"
+    },
+    "message_us_title": "Message Us Directly",
+    "message_us_desc": "The fastest way to reach us is via WhatsApp. Send us a message, a photo of your bike's issue, or just say hello!",
+    "whatsapp_btn": "Chat on WhatsApp"
+  },
+  "home": {
+    "hero": {
+      "title_1": "Ride the",
+      "title_highlight": "Extraordinary",
+      "desc": "Fietsmaker 4 You brings you the finest selection of premium bicycles in Amsterdam. Experience the perfect blend of performance, style, and comfort.",
+      "cta": "Explore Collection"
+    },
+    "featured": {
+      "title": "Amsterdam's Finest",
+      "desc": "At Hagedoornweg 70a, we don't just sell bikes; we curate lifestyles. Whether you need a daily commuter or a high-performance machine, our expert team ensures every ride is smooth, stylish, and tailored to you.",
+      "stat_1_val": "5+",
+      "stat_1_lbl": "Years in Business",
+      "stat_2_val": "100%",
+      "stat_2_lbl": "Customer Satisfaction"
+    },
+    "expertise": {
+      "title": "Our Expertise",
+      "services": [
+        {
+          "title": "Premium Repairs",
+          "desc": "Expert maintenance for all bike types, ensuring your ride is always safe and smooth."
+        },
+        {
+          "title": "Custom Builds",
+          "desc": "Create the bike of your dreams with our bespoke customization services."
+        },
+        {
+          "title": "E-Bike Specialists",
+          "desc": "Mechanical repairs for e-bikes are available now. Electrical repair & diagnostics coming soon!"
+        }
+      ]
+    },
+    "hospitality": {
+      "title_1": "Feel at",
+      "title_highlight": "Home",
+      "desc_1": "At Fietsmaker 4 You, you're never just a customer — you're a guest. Owner Wasim runs the shop with genuine warmth and hospitality. Whether you're waiting for a quick repair or just stopping by to browse, the atmosphere is always relaxed and welcoming.",
+      "desc_2": "Don't be shy —",
+      "desc_2_highlight": "If he's busy working alone, feel free to treat yourself to a drink",
+      "desc_2_end": "while you wait. It's on Wasim. 😊",
+      "bullets": [
+        "Speaks Dutch, English & Arabic — always easy to communicate",
+        "Passionate bike builder & collector with 5+ years in the trade",
+        "Honest advice, fair prices, no surprise costs",
+        "Amsterdam resident since 2009 — part of the community"
+      ],
+      "btn": "Meet Wasim →"
+    }
+  },
+  "about": {
+    "head": {
+      "title": "Meet",
+      "title_highlight": "Wasim",
+      "subtitle": "The heart behind Fietsmaker 4 You"
+    },
+    "facts": {
+      "since": "In Amsterdam since",
+      "languages": "Languages spoken",
+      "years": "Years in business",
+      "passion": "Passion"
+    },
+    "story": {
+      "title": "A Passion Turned",
+      "title_highlight": "Purpose",
+      "p1": "Wasim has always had a deep love for bicycles — not just as a mode of transport, but as works of craft and engineering. Born in Syria and calling Amsterdam home since 2009, he brought that passion with him and turned it into something the whole community could benefit from.",
+      "p2": "He doesn't just fix bikes — he collects them, studies them, and builds custom bicycles from scratch. Every bike that rolls into the shop gets treated with the same care and attention as if it were his own.",
+      "p3": "Fluent in Dutch, English and Arabic, Wasim makes everyone feel at home — whether you're a local, a tourist, or a fellow bike enthusiast just looking to chat over a cup of coffee.",
+      "bullets": [
+        "Passionate bike builder — collects and builds custom bicycles",
+        "Honest advice, fair prices, no surprise costs",
+        "Amsterdam resident since 2009 — a true part of the community",
+        "Drop in, ask for your free drink, and feel right at home"
+      ]
+    },
+    "custom": {
+      "title": "Custom",
+      "title_highlight": "Builds",
+      "p1": "One of Wasim's greatest joys is building bikes from the ground up. From track bikes to city cruisers, every custom build is a unique collaboration between Wasim and the client — crafted with care, precision and personality."
+    },
+    "hospitality": {
+      "title": "You're Always",
+      "title_highlight": "Welcome",
+      "p1": "Wasim believes a bike shop should feel like a second living room. Drop by, say hello, and don't be shy — ",
+      "p1_bold": "ask for your free drink",
+      "p1_end": " while we take care of your bike. You're not just a customer here, you're a guest.",
+      "btn": "Find Us →"
+    }
+  },
+  "services": {
+    "head": {
+      "title": "Our",
+      "title_highlight": "Services",
+      "desc": "Professional care for your bicycle. From quick fixes to complete rebuilds, our certified mechanics treat every bike as their own."
+    },
+    "free_banner": {
+      "sub": "Always included — free",
+      "title": "With every repair visit",
+      "items": [
+        "Quick safety check",
+        "Tyre pressure check",
+        "Basic brake inspection",
+        "Gear indexing check"
+      ]
+    },
+    "tiers": [
+      {
+        "title": "Repair Visit",
+        "subtitle": "You only pay for what needs fixing",
+        "price": "From price list",
+        "highlight": false,
+        "note": "Bring your bike in for any repair and the basics below are on us — no hidden costs.",
+        "features": [
+          {
+            "label": "Quick safety check",
+            "free": true
+          },
+          {
+            "label": "Tyre pressure check",
+            "free": true
+          },
+          {
+            "label": "Basic brake inspection",
+            "free": true
+          },
+          {
+            "label": "Gear indexing check",
+            "free": true
+          }
+        ],
+        "btn": "Book Now"
+      },
+      {
+        "title": "E-Bike Services",
+        "subtitle": "Mechanical repairs available now",
+        "price": "From price list",
+        "highlight": false,
+        "note": "Electrical diagnostics and battery services coming soon.",
+        "features": [
+          {
+            "label": "Mechanical repairs",
+            "free": false
+          },
+          {
+            "label": "Brake & gear adjustment",
+            "free": false
+          },
+          {
+            "label": "Wheel & frame checks",
+            "free": false
+          },
+          {
+            "label": "🔜 Battery health check",
+            "free": false,
+            "soon": true
+          },
+          {
+            "label": "🔜 Electrical diagnostics",
+            "free": false,
+            "soon": true
+          }
+        ],
+        "btn": "Book Now"
+      }
+    ],
+    "price_list": {
+      "title": "Full",
+      "title_highlight": "Price List",
+      "desc": "All prices include labour. Parts extra if needed.",
+      "categories": [
+        {
+          "name": "Tyres & Tubes",
+          "items": [
+            {
+              "name": "Binnenband Plakken (Inner tube repair)",
+              "price": "€20.00"
+            },
+            {
+              "name": "Binnenband vervangen (Inner tube replacement)",
+              "price": "€25.00"
+            },
+            {
+              "name": "BIB + BUB vervangen — normal",
+              "price": "€50.00"
+            },
+            {
+              "name": "BIB + BUB vervangen — anti-lek",
+              "price": "€65.00"
+            }
+          ]
+        },
+        {
+          "name": "Chain & Drivetrain",
+          "items": [
+            {
+              "name": "Ketting aanspannen / opleggen (Chain tighten/fit)",
+              "price": "€15.00"
+            },
+            {
+              "name": "Ketting vervangen — normal (1 speed)",
+              "price": "€25.00"
+            },
+            {
+              "name": "Ketting vervangen — anti-roest (1 speed)",
+              "price": "€35.00"
+            },
+            {
+              "name": "Trapas vervangen (Bottom bracket replacement)",
+              "price": "€65.00"
+            }
+          ]
+        },
+        {
+          "name": "Lights & Stand",
+          "items": [
+            {
+              "name": "Koplamp vervangen (Front light replacement)",
+              "price": "€15.00"
+            },
+            {
+              "name": "Achterlamp vervangen (Rear light replacement)",
+              "price": "€10.00"
+            },
+            {
+              "name": "Standaard vervangen — eenpoot (Single kickstand)",
+              "price": "€20.00"
+            },
+            {
+              "name": "Standaard vervangen — tweepoot (Double kickstand)",
+              "price": "€50.00"
+            }
+          ]
+        },
+        {
+          "name": "Brakes",
+          "items": [
+            {
+              "name": "Remblokjes vervangen — voor of achter (Front or rear brake pads)",
+              "price": "€15.00"
+            },
+            {
+              "name": "Remblokjes vervangen — voor en achter (Both brake pads)",
+              "price": "€30.00"
+            },
+            {
+              "name": "Remkable vervangen — voor of achter (Brake cable)",
+              "price": "€20.00"
+            },
+            {
+              "name": "Rem afstelling — normal (voor of achter)",
+              "price": "€5.00"
+            },
+            {
+              "name": "Rem afstelling — schijfrem (voor of achter)",
+              "price": "€10.00"
+            }
+          ]
+        },
+        {
+          "name": "Other Repairs",
+          "items": [
+            {
+              "name": "Kleine slag uit wiel halen (Minor wheel truing)",
+              "price": "€25.00"
+            },
+            {
+              "name": "Fiets afmonteren (Full bike disassembly)",
+              "price": "€50.00"
+            },
+            {
+              "name": "Tarief per uur (Hourly rate)",
+              "price": "€60.00"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

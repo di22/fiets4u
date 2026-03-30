@@ -1,0 +1,215 @@
+{
+    "nav": {
+      "home": "Home",
+      "about": "Over ons",
+      "services": "Diensten",
+      "contact": "Contact"
+    },
+    "contact": {
+      "page_title_1": "Neem",
+      "page_title_highlight": "Contact Op",
+      "visit_us": "Bezoek Ons",
+      "address": {
+        "name": "Fietsmaker 4 You",
+        "street": "Hagedoornweg 70a",
+        "city": "1031 BT Amsterdam",
+        "country": "Nederland"
+      },
+      "opening_hours": "Openingstijden",
+      "hours": {
+        "week": "Ma - Vr: 09:00 - 18:00",
+        "sat": "Zaterdag: 10:00 - 17:00",
+        "sun": "Zondag: Gesloten"
+      },
+      "message_us_title": "Stuur Ons Direct Een Bericht",
+      "message_us_desc": "De snelste manier om ons te bereiken is via WhatsApp. Stuur ons een bericht, een foto van het probleem met uw fiets, of zeg gewoon hallo!",
+      "whatsapp_btn": "Chat via WhatsApp"
+    },
+    "home": {
+      "hero": {
+        "title_1": "Rijd op het",
+        "title_highlight": "Buitengewone",
+        "desc": "Fietsmaker 4 You brengt u de beste selectie premium fietsen in Amsterdam. Ervaar de perfecte mix van prestaties, stijl en comfort.",
+        "cta": "Ontdek de Collectie"
+      },
+      "featured": {
+        "title": "Het Beste van Amsterdam",
+        "desc": "Aan de Hagedoornweg 70a verkopen we niet zomaar fietsen; we verrijken levensstijlen. Of u nu een stadsfiets of een racefiets nodig heeft, ons deskundige team zorgt ervoor dat elke rit soepel, stijlvol en op maat is.",
+        "stat_1_val": "5+",
+        "stat_1_lbl": "Jaren Ervaring",
+        "stat_2_val": "100%",
+        "stat_2_lbl": "Klanttevredenheid"
+      },
+      "expertise": {
+        "title": "Onze Expertise",
+        "services": [
+          {
+            "title": "Premium Reparaties",
+            "desc": "Vakkundig onderhoud voor alle soorten fietsen, zodat uw rit altijd veilig en soepel verloopt."
+          },
+          {
+            "title": "Custom Builds",
+            "desc": "Creëer de fiets van uw dromen met onze speciale maatwerk diensten."
+          },
+          {
+            "title": "E-Bike Specialisten",
+            "desc": "Mechanische reparaties voor e-bikes zijn nu beschikbaar. Elektrische reparaties & diagnostiek komen binnenkort!"
+          }
+        ]
+      },
+      "hospitality": {
+        "title_1": "Voel je",
+        "title_highlight": "Thuis",
+        "desc_1": "Bij Fietsmaker 4 You bent u nooit zomaar een klant — u bent een gast. Eigenaar Wasim runt de winkel met oprechte warmte en gastvrijheid. Of u nu wacht op een snelle reparatie of gewoon langskomt, de sfeer is altijd ontspannen en gastvrij.",
+        "desc_2": "Wees niet verlegen —",
+        "desc_2_highlight": "Als Wasim alleen aan het werk is, pak gerust zelf een lekker drankje",
+        "desc_2_end": "tijdens het wachten. Het is van het huis. 😊",
+        "bullets": [
+          "Spreekt Nederlands, Engels & Arabisch — altijd makkelijk communiceren",
+          "Gepassioneerde fietsenbouwer & verzamelaar met 4+ jaar ervaring",
+          "Eerlijk advies, eerlijke prijzen, geen onverwachte kosten",
+          "Amsterdammer sinds 2009 — deel van de buurt"
+        ],
+        "btn": "Ontmoet Wasim →"
+      }
+    },
+    "about": {
+      "head": {
+        "title": "Ontmoet",
+        "title_highlight": "Wasim",
+        "subtitle": "Het hart achter Fietsmaker 4 You"
+      },
+      "facts": {
+        "since": "In Amsterdam sinds",
+        "languages": "Gesproken Talen",
+        "years": "Jaren als ondernemer",
+        "passion": "Passie"
+      },
+      "story": {
+        "title": "Een Passie Werd Een",
+        "title_highlight": "Doel",
+        "p1": "Wasim heeft altijd een diepe liefde gehad voor fietsen — niet alleen als vervoermiddel, maar ook als stukjes vakmanschap en techniek. Geboren in Syrië en wonend in Amsterdam sinds 2009, besloot hij van zijn passie zijn beroep te maken, iets waar de hele buurt van kan profiteren.",
+        "p2": "Hij repareert niet alleen fietsen — hij verzamelt ze, bestudeert ze en bouwt zelfs custom fietsen van begin tot eind. Elke fiets die de winkel binnenrolt, wordt met evenveel zorg en aandacht behandeld als zijn eigen fietsen.",
+        "p3": "Vloeiend in Nederlands, Engels en Arabisch, zorgt Wasim ervoor dat iedereen zich thuis voelt — of je nu een local bent, een toerist, of gewoon een fietsfanaat die wil kletsen onder het genot van een kopje koffie.",
+        "bullets": [
+          "Gepassioneerd fietsenbouwer — verzamelt en bouwt custom fietsen",
+          "Eerlijk advies, eerlijke prijzen, geen verrassingen achteraf",
+          "Amsterdammer sinds 2009 — echt onderdeel van de buurt",
+          "Kom langs, vraag om een drankje en voel je direct thuis"
+        ]
+      },
+      "custom": {
+        "title": "Custom",
+        "title_highlight": "Fietsen",
+        "p1": "Een van Wasim's grootste vreugden is het opbouwen van fietsen vanaf nulpunt. Van klassieke wielrenfietsen tot comfortabele stadsfietsen, elke custom fiets is een unieke samenwerking tussen Wasim en de klant — met grote zorg, precisie en persoonlijkheid gemaakt."
+      },
+      "hospitality": {
+        "title": "U Bent Altijd",
+        "title_highlight": "Welkom",
+        "p1": "Wasim is van mening dat een fietsenwinkel moet voelen als een tweede huiskamer. Kom langs, zeg hallo, en wees niet verlegen — ",
+        "p1_bold": "vraag gewoon om een gratis drankje",
+        "p1_end": " terwijl wij voor uw fiets zorgen. U bent hier niet slechts een klant, u bent een gast.",
+        "btn": "Vind Ons Hier →"
+      }
+    },
+    "services": {
+      "head": {
+        "title": "Onze",
+        "title_highlight": "Diensten",
+        "desc": "Professionele zorg voor uw fiets. Van snelle reparaties tot complete revisies, onze monteurs behandelen elke fiets als hun eigen fiets."
+      },
+      "free_banner": {
+        "sub": "Altijd inbegrepen — gratis",
+        "title": "Bij elk reparatiebezoek",
+        "items": [
+          "Snelle veiligheidscheck",
+          "Bandenspanning controle",
+          "Basis reminspectie",
+          "Versnellingen checken"
+        ]
+      },
+      "tiers": [
+        {
+          "title": "Reparatie",
+          "subtitle": "U betaalt alleen voor wat gerepareerd moet worden",
+          "price": "Zie prijslijst",
+          "highlight": false,
+          "note": "Breng uw fiets langs voor een reparatie en wij doen de onderstaande controles gratis — geen verborgen kosten.",
+          "features": [
+            { "label": "Snelle veiligheidscheck", "free": true },
+            { "label": "Bandenspanning controle", "free": true },
+            { "label": "Basis reminspectie", "free": true },
+            { "label": "Versnellingen checken", "free": true }
+          ],
+          "btn": "Boek Nu"
+        },
+        {
+          "title": "E-Bike Diensten",
+          "subtitle": "Mechanische reparaties beschikbaar",
+          "price": "Zie prijslijst",
+          "highlight": false,
+          "note": "Diagnose van elektrische systemen en accu's komt eraan.",
+          "features": [
+            { "label": "Mechanische reparaties", "free": false },
+            { "label": "Remmen & versnellingen afstellen", "free": false },
+            { "label": "Wiel & frame controle", "free": false },
+            { "label": "🔜 Accu gezondheidscheck", "free": false, "soon": true },
+            { "label": "🔜 Elektrische diagnose", "free": false, "soon": true }
+          ],
+          "btn": "Boek Nu"
+        }
+      ],
+      "price_list": {
+        "title": "Volledige",
+        "title_highlight": "Prijslijst",
+        "desc": "Alle prijzen zijn inclusief arbeidsloon. Eventuele onderdelen worden apart berekend.",
+        "categories": [
+          {
+            "name": "Banden & Binnenbanden",
+            "items": [
+              { "name": "Binnenband Plakken", "price": "€20.00" },
+              { "name": "Binnenband vervangen", "price": "€25.00" },
+              { "name": "BIB + BUB vervangen — normaal", "price": "€50.00" },
+              { "name": "BIB + BUB vervangen — anti-lek", "price": "€65.00" }
+            ]
+          },
+          {
+            "name": "Ketting & Aandrijving",
+            "items": [
+              { "name": "Ketting aanspannen / opleggen", "price": "€15.00" },
+              { "name": "Ketting vervangen — normaal (1 speed)", "price": "€25.00" },
+              { "name": "Ketting vervangen — anti-roest (1 speed)", "price": "€35.00" },
+              { "name": "Trapas vervangen", "price": "€65.00" }
+            ]
+          },
+          {
+            "name": "Verlichting & Standaard",
+            "items": [
+              { "name": "Koplamp vervangen", "price": "€15.00" },
+              { "name": "Achterlamp vervangen", "price": "€10.00" },
+              { "name": "Standaard vervangen — eenpoot", "price": "€20.00" },
+              { "name": "Standaard vervangen — tweepoot", "price": "€50.00" }
+            ]
+          },
+          {
+            "name": "Remmen",
+            "items": [
+              { "name": "Remblokjes vervangen — voor of achter", "price": "€15.00" },
+              { "name": "Remblokjes vervangen — voor en achter", "price": "€30.00" },
+              { "name": "Remkable vervangen — voor of achter", "price": "€20.00" },
+              { "name": "Rem afstelling — normaal (voor of achter)", "price": "€5.00" },
+              { "name": "Rem afstelling — schijfrem (voor of achter)", "price": "€10.00" }
+            ]
+          },
+          {
+            "name": "Overige Reparaties",
+            "items": [
+              { "name": "Kleine slag uit wiel halen", "price": "€25.00" },
+              { "name": "Fiets afmonteren", "price": "€50.00" },
+              { "name": "Tarief per uur", "price": "€60.00" }
+            ]
+          }
+        ]
+      }
+    }
+  }

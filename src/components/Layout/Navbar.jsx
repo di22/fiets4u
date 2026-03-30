@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
+    const { t, i18n } = useTranslation();
     const [scrolled, setScrolled] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const location = useLocation();
@@ -15,11 +17,16 @@ const Navbar = () => {
     }, []);
 
     const navLinks = [
-        { name: 'Home', path: '/' },
-        { name: 'About', path: '/about' },
-        { name: 'Services', path: '/services' },
-        { name: 'Contact', path: '/contact' },
+        { name: t('nav.home'), path: '/' },
+        { name: t('nav.about'), path: '/about' },
+        { name: t('nav.services'), path: '/services' },
+        { name: t('nav.contact'), path: '/contact' },
     ];
+
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng);
+        setIsMenuOpen(false);
+    };
 
     return (
         <nav
@@ -53,7 +60,7 @@ const Navbar = () => {
                 <div className={`nav-links-container ${isMenuOpen ? 'open' : ''}`}>
                     {navLinks.map((link) => (
                         <Link
-                            key={link.name}
+                            key={link.path}
                             to={link.path}
                             onClick={() => setIsMenuOpen(false)}
                             style={{
@@ -66,6 +73,42 @@ const Navbar = () => {
                             {link.name}
                         </Link>
                     ))}
+
+                    <div style={{
+                        display: 'flex',
+                        gap: '0.5rem',
+                        alignItems: 'center',
+                        marginLeft: isMenuOpen ? '0' : '2rem',
+                        marginTop: isMenuOpen ? '1rem' : '0'
+                    }}>
+                        <button 
+                            onClick={() => changeLanguage('nl')}
+                            style={{ 
+                                background: 'transparent',
+                                border: 'none',
+                                color: i18n.language === 'nl' ? 'var(--color-primary)' : 'var(--color-text-muted)',
+                                fontWeight: i18n.language === 'nl' ? '700' : '500',
+                                cursor: 'pointer',
+                                fontSize: '1rem'
+                            }}
+                        >
+                            NL
+                        </button>
+                        <span style={{ color: 'var(--color-text-muted)', fontSize: '0.8rem' }}>|</span>
+                        <button 
+                            onClick={() => changeLanguage('en')}
+                            style={{ 
+                                background: 'transparent',
+                                border: 'none',
+                                color: i18n.language === 'en' ? 'var(--color-primary)' : 'var(--color-text-muted)',
+                                fontWeight: i18n.language === 'en' ? '700' : '500',
+                                cursor: 'pointer',
+                                fontSize: '1rem'
+                            }}
+                        >
+                            EN
+                        </button>
+                    </div>
                 </div>
             </div>
         </nav>
